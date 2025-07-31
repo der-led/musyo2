@@ -9,9 +9,9 @@ body {
 
 main {
   max-width: 800px;
-  padding: 1rem;
-  margin-left: 0 !important;
-  margin-right: auto !important;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 header, footer {
