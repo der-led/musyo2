@@ -65,4 +65,4 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNumbersInTable = false
     codeFences = true
 
-paginate = 10
+publishDir = "docs"
