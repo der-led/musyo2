@@ -12,3 +12,7 @@ main {
   padding: 0 !important;
   background: rgba(255, 0, 0, 0.1);
 }
+
+body {
+  background: lime;
+}
