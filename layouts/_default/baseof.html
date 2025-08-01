@@ -2,9 +2,14 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>テスト</title>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/custom.css">
   </head>
   <body>
-    <p>baseof.htmlが読み込まれています</p>
+      <main>
+    {{ block "main" . }}
+        {{ .Content }}
+      </main>
+    {{ end }}
   </body>
 </html>
